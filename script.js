@@ -1,5 +1,6 @@
 function firstWord(s) {
   // your code here
+	s = s.trim();
 	if(!s){
 		return "";
 	}
