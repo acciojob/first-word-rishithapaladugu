@@ -7,7 +7,7 @@ function firstWord(s) {
 	if(spaceIndex === -1){
 		return str;
 	}
-	return str.subString(0, spaceIndex);
+	return str.substring(0, spaceIndex);
 }
 
 // Do not change the code below
